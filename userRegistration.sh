@@ -3,8 +3,8 @@ echo "take input from user"
 read userInput
 
 patternName="^([A-Z][a-zA-Z]{3,}$)"
-
-	if [[ $userInput =~ $password1 ]]
+patternLastName="^([A-Z][a-zA-Z]{3,}$)"
+	if [[ $userInput =~ $patternLastName ]]
 	then
 	echo "valid"
 	else
